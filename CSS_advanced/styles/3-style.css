@@ -1,0 +1,40 @@
+/* Variables globales */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+
+  --text-color: var(--color-black);
+}
+
+/* Défilement fluide */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Couleur du texte du body */
+body {
+  color: var(--text-color);
+}
+
+/* Liens */
+a {
+  color: var(--text-color);
+}
+
+/* Éléments cachés */
+.visually-hidden {
+  display: none;
+}
+
+/* Catégorie de carte */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Tagline de section */
+.section-tagline {
+  color: var(--color-primary);
+}
