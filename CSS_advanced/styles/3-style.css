@@ -1,25 +1,23 @@
-/* Variables globales */
+/* Propriétés personnalisées */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
-
   --text-color: var(--color-black);
 }
 
-/* Défilement fluide */
 html {
   scroll-behavior: smooth;
 }
 
-/* Couleur du texte du body */
+/* Couleur du texte du corps */
 body {
   color: var(--text-color);
 }
 
-/* Liens */
+/* Tous les liens */
 a {
   color: var(--text-color);
 }
@@ -34,7 +32,7 @@ a {
   color: var(--color-primary);
 }
 
-/* Tagline de section */
+/* Accroche de section */
 .section-tagline {
   color: var(--color-primary);
 }
