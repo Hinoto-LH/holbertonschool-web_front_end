@@ -1,18 +1,13 @@
-/* Variables globales */
+/* Propriétés personnalisées */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
-
   --text-color: var(--color-black);
-
-  /* Polices */
   --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-  /* Tailles de police */
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
@@ -20,25 +15,19 @@
   --font-size-xx-large: 4.8rem;
 }
 
-/* Base HTML (1rem = 10px environ) */
 html {
-  scroll-behavior: smooth;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
-/* Corps */
+/* Couleur du texte du corps */
 body {
-  color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
+  color: var(--text-color);
 }
 
-/* Titres */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
-}
-
-/* Liens */
+/* Tous les liens */
 a {
   color: var(--text-color);
 }
@@ -48,11 +37,17 @@ a {
   display: none;
 }
 
-/* Styles spécifiques */
+/* Catégorie de carte */
 .card-category {
   color: var(--color-primary);
 }
 
+/* Accroche de section */
 .section-tagline {
   color: var(--color-primary);
+}
+
+/* Tous les niveaux de titres */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
 }
