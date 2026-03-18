@@ -1,37 +1,28 @@
-/* Variables globales */
+/* Propriétés personnalisées */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
-
   --text-color: var(--color-black);
-
-  /* Polices */
   --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Défilement fluide */
 html {
   scroll-behavior: smooth;
 }
 
-/* Corps du document */
+/* Couleur du texte du corps */
 body {
-  color: var(--text-color);
   font-family: var(--font-family-base);
+  color: var(--text-color);
 }
 
-/* Liens */
+/* Tous les liens */
 a {
   color: var(--text-color);
-}
-
-/* Titres */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
 }
 
 /* Éléments cachés */
@@ -39,12 +30,17 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-/* Catégorie */
+/* Catégorie de carte */
 .card-category {
   color: var(--color-primary);
 }
 
-/* Tagline */
+/* Accroche de section */
 .section-tagline {
   color: var(--color-primary);
+}
+
+/* Tous les niveaux de titres */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
 }
